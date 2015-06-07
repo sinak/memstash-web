@@ -173,6 +173,9 @@ p.lead {
   line-height: 30px;
   font-weight: normal;
 }
+header p.lead {
+  font-size: 24px;
+}
 p:last-child {
   margin-bottom: 0px;
 }
@@ -4345,6 +4348,9 @@ footer.short-2 .contact-action:hover {
   .product-action img {
     margin-top: 24px;
     top: 24px;
+  }
+  .product-action {
+    padding: 80px 0 80px 0;
   }
 }
 .no-loader .loader {
