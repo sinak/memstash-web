@@ -1169,7 +1169,8 @@ and (max-width : 767px) {
   header.signup{ height: auto; }
   .header-icons{ padding-top: @standard-space; padding-bottom: @standard-space; }
   header.title{ padding: 0px; height: 400px; }
-  .product-right{ height: 632px; padding-top: @standard-space; }
+  .product-right{ height: auto; padding-top: @standard-space; padding-bottom: @standard-space; }
+  .product-right img { padding-top: @standard-space;}
   .product-right .align-vertical{ padding-top: 0px !important; }
   .product-right .product-image{ margin-top: 200px; right: 0px; bottom: -85px; }
   
@@ -1755,7 +1756,7 @@ and (orientation : portrait) {
   .fullscreen-element .align-vertical{ padding-top: 80px !important; }
 }
 
-.product-action{ height: auto; padding: @standard-space*1.5 0 0 0; }
+.product-action{ height: auto; padding: @standard-space*3 0 @standard-space*3 0; }
 .product-action{ background: @color-primary; }
 .product-action h2{ margin-bottom: 16px; font-weight: 600; }
 .product-action p{ display: block; max-width: 520px; margin: 0 auto; margin-bottom: 40px; }
@@ -1767,3 +1768,29 @@ and (orientation : portrait) {
 }
 
 .no-loader .loader{ display: none !important; }
+
+
+// Sina updates
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.phone-video {
+  margin-left:17%;
+  width: 310px;
+  height: 623px;
+  background-image: url('/img/white-iphone.png');
+  video {
+    width: 260px;
+    margin-top: 80px
+  }
+}
+@media screen and (max-width: 991px) {
+  .phone-video { margin-left: 0;
+  }
+}
+.strip .signup-email-field {
+border-bottom: 1px solid rgba(254,254,254,0.4);
+}

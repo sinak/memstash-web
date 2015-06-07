@@ -2941,7 +2941,11 @@ footer.short-2 .contact-action:hover {
     height: 400px;
   }
   .product-right {
-    height: 632px;
+    height: auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .product-right img {
     padding-top: 64px;
   }
   .product-right .align-vertical {
@@ -4314,7 +4318,7 @@ footer.short-2 .contact-action:hover {
 }
 .product-action {
   height: auto;
-  padding: 120px 0 0 0;
+  padding: 240px 0 240px 0;
 }
 .product-action {
   background: #1fbae3;
@@ -4345,4 +4349,27 @@ footer.short-2 .contact-action:hover {
 }
 .no-loader .loader {
   display: none !important;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.phone-video {
+  margin-left: 17%;
+  width: 310px;
+  height: 623px;
+  background-image: url('/img/white-iphone.png');
+}
+.phone-video video {
+  width: 260px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 991px) {
+  .phone-video {
+    margin-left: 0;
+  }
+}
+.strip .signup-email-field {
+  border-bottom: 1px solid rgba(254, 254, 254, 0.4);
 }
