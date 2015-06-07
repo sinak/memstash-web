@@ -4359,7 +4359,7 @@ footer.short-2 .contact-action:hover {
   margin-left: 17%;
   width: 310px;
   height: 623px;
-  background-image: url('/img/white-iphone.png');
+  background-image: url('../img/white-iphone.png');
 }
 .phone-video video {
   width: 260px;
